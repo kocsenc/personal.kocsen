@@ -1,0 +1,81 @@
+## This is a bash guide from Kocsen Chung ##
+____________________________________________________
+|                   ~~LEGEND~~                      |
+| #[Instruction]
+| $ Bash command
+| +Notes 
+
+
+
+#1 To run a shell script (*.sh)
+ $ sh *****.sh
+
+
+#2 - Intalling/Decompressing Packages
+    
+    #2.1 To install/decompress rpm file (*.rpm)
+     +Installing
+        $ rpm -ivh rpmFilename.rpm
+     +Upgrading
+        $ rpm -Uvh rpmFilename.rpm
+     +Uninstall (remove)
+        $ rpm -ev
+     +List of recently installed rpms
+        $ rpm -qa --last
+    
+    #2.2 To decompress a tar file (*.tar)
+     $ tar -xvf tarFileName.tar [specific directory/file]
+        + -x is for extracting
+        + -v is for verbose (printing nicely)
+        + -f is for specifying a filename
+        + -j is for decompressing *.tar.bz2 extension
+        + -z is for decompressing *.tar.gz extension
+
+    #2.3 How to install tarball files (*.tar.gz)
+        +Decompress tar file
+         $ tar -xvf tarFileName.tar.gz (See rule above -decompress tar file)
+    
+        +Go to extracted directory
+    
+        +Configurate and Make
+         $ ./configure #to check all files and programs are OK
+         $ make
+         $ make install
+
+
+#3 How to install a program
+    +Make yum install it
+     $ sudo yum install theProgramVar
+     $ su -c "yum install theProgramVar"
+
+
+#4 Bash Web browser
+    $ w3m url
+    $ lynx //different browser
+	$ elinks
+
+
+#5 Remove files
+    $rm file1 file2
+    
+    +For removing a directory that is not empty (Can use * for all)
+    $rm -rv directory
+
+#6 Rename/Move
+    $mv file destination
+        
+        +For renaming use:
+        $mv fileOldName fileNewName
+
+#7 GIT
+    
+    #7.1 Create local repo from ssh/http/other
+        +Obtain url/address by using:
+            $ git remote -v
+            + Also obtainable by going to .gitconfig file
+        $ git clone ssh://[username@domain]/ADDRESS
+        $ git clone http://
+
+
+ 
+    
