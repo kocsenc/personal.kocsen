@@ -14,6 +14,9 @@ alias diff='colordiff' #requires colordiff package
 alias sshnit='ssh kxc4519@nitron.rit.edu'
 alias x='startx'
 alias inst="sudo yaourt -S "
+alias batt="acpi -i"
+alias wbatt="watch acpi -i"
+alias checkwifi="sudo wifi-menu wlp9s0"
 
 #ls aliases
 alias la='ls -a --color=auto'
