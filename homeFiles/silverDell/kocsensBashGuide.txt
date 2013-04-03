@@ -1,5 +1,4 @@
-#
- This is a bash guide from Kocsen Chung ##
+## This is a bash guide from Kocsen Chung ##
 ____________________________________________________
 |                   ~~LEGEND~~                      |
 | #[Instruction]
