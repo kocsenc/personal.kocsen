@@ -4,5 +4,5 @@
 
 for f in ~/repos/*
 do
-	cd $f && git pull && git fetch --all && cd ..
+	cd $f && git pull --all && git fetch --all -p && cd ..
 done
