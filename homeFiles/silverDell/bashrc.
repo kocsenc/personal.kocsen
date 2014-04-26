@@ -1,9 +1,0 @@
-# Kocsen Chung bashrc
-
-#Load Aliases
-if [ -f~/.aliases ]; then
-	. ~/.aliases
-fi
-
-# Prompt
-
