@@ -1,0 +1,27 @@
+#!/bin/bash
+#Kocsen Chung
+
+#color
+alias ls='ls --color=auto'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias diff='colordiff' #requires colordiff package
+
+#personal shortcuts
+alias install="sudo yaourt -S "
+alias setuprails="bundle install && bundle exec rake db:setup && bundle exec rake db:seed && bundle exec rails server"
+
+#SSH
+alias sshnit='ssh kxc4519@nitron.se.rit.edu'
+alias sshzbox='ssh kocsenc@zbox.student.rit.edu'
+alias sshzbox2='ssh kocsenc@zbox2.student.rit.edu'
+alias sshrpi='ssh sagehyuga@kocsenrpi.student.rit.edu'
+
+
+#ls aliases
+alias la='ls -a --color=auto'
+alias ll="ls -al"
+alias l="ls"
