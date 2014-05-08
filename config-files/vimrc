@@ -178,7 +178,7 @@ set wrap "Wrap lines
 
 " Automatic closing of curly braces
 inoremap{      {}<Left>
-inoremap{<CR>  {<CR>}<Esc>0
+inoremap{<CR>  {<CR>}<Esc>O
 inoremap{{     {
 inoremap{}     {}
 
