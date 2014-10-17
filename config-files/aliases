@@ -1,6 +1,8 @@
 #!/bin/bash
 #Kocsen Chung
 
+export PATH=/usr/local/bin:$PATH
+
 #color
 alias ls='ls --color=auto'
 alias dir='dir --color=auto'
@@ -11,15 +13,16 @@ alias egrep='egrep --color=auto'
 alias diff='colordiff' #requires colordiff package
 
 #personal shortcuts
-alias install="sudo yaourt -S "
-alias setuprails="bundle install && bundle exec rake db:setup && bundle exec rake db:seed && bundle exec rails server"
+alias install="sudo brew install "
 
 #SSH
 alias sshnit='ssh kxc4519@nitron.se.rit.edu'
 alias sshzbox='ssh kocsenc@zbox.student.rit.edu'
 alias sshzbox2='ssh kocsenc@zbox2.student.rit.edu'
 alias sshrpi='ssh sagehyuga@kocsenrpi.student.rit.edu'
-
+alias sshvps='ssh botman@107.170.226.37'
+alias sshvps2='ssh potato@104.131.49.36'
+alias sshenterprise='ssh root@vm343a.se.rit.edu'
 
 #ls aliases
 alias la='ls -a --color=auto'
