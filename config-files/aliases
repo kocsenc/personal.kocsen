@@ -14,6 +14,7 @@ alias diff='colordiff' #requires colordiff package
 
 #personal shortcuts
 alias install="sudo brew install "
+alias plz='sudo $(history -p !!)'
 
 #SSH
 alias sshnit='ssh kxc4519@nitron.se.rit.edu'
