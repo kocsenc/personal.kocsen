@@ -14,16 +14,16 @@ alias diff='colordiff' #requires colordiff package
 
 #personal shortcuts
 alias install="sudo brew install "
-alias plz='sudo $(history -p !!)'
+#alias plz='sudo $(history -p !!)'
 
 #SSH
 alias sshnit='ssh kxc4519@nitron.se.rit.edu'
-alias sshzbox='ssh kocsenc@zbox.student.rit.edu'
+alias sshzbox='ssh potato@zbox.student.rit.edu'
 alias sshzbox2='ssh kocsenc@zbox2.student.rit.edu'
-alias sshrpi='ssh sagehyuga@kocsenrpi.student.rit.edu'
-alias sshvps='ssh botman@107.170.226.37'
-alias sshvps2='ssh potato@104.131.49.36'
-alias sshenterprise='ssh root@vm343a.se.rit.edu'
+alias sshvps='ssh potato@104.236.241.219'
+alias sshrate='ssh -p 2222 kocsenc@ratemycoop.io'
+alias sshandroid='ssh kxc4519@vm-017.main.ad.rit.edu'
+alias git lola='git log --graph --decorate --pretty=oneline --abbrev-commit --all'
 
 #ls aliases
 alias la='ls -a --color=auto'
